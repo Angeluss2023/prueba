@@ -1,0 +1,12 @@
+
+div div#cola_1{
+    width: auto;
+    height: auto;
+}
+div div#cola_2{
+    width: auto;
+    height: auto;
+}
+router-outlet{
+    grid-area: center-content;
+}

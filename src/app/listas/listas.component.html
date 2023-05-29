@@ -1,0 +1,12 @@
+<span *ngIf="listadoCarrera.length == 0">
+  No existen contactos
+</span>
+
+<ul>
+  <li *ngFor="let carrera of listadoCarrera">
+    <a (click)="editar(carrera)">{{carrera.idCarrera}} | {{carrera.nombreCarrera}} | {{carrera.DescripcionCarrera}}</a>
+      <button (click)="eliminar(carrera)">Eliminar</button>
+  </li>
+  
+</ul>
+

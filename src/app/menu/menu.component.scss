@@ -1,0 +1,22 @@
+  /* Estilos para el menú principal */
+  nav {
+    background-color: #e0e0e0;
+  }
+ul.menu-principal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul.menu-principal li {
+    margin-right: 10px;
+  }
+
+  ul.menu-principal li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }

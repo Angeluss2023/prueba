@@ -1,0 +1,20 @@
+    /* Estilos para la cabecera */
+    header {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 20px;
+      position: relative;
+    }
+
+    /* Estilos para el apellido */
+    .apellido {
+      font-size: 24px;
+    }
+
+    /* Estilos para la imagen */
+    .imagen {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 200px;
+    }

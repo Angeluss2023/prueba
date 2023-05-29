@@ -1,0 +1,11 @@
+<label for="txtCedula">IDCarrera:</label>
+<input id="txtCedula" [(ngModel)]="carrera.idCarrera" name="id"/>
+<br/>
+<label for="txtNombre">nombreCarrera:</label>
+<input id="txtNombre" [(ngModel)]="carrera.nombreCarrera"/>
+<br/>
+<label for="txtDireccion">DescripcionCarrera:</label>
+<input id="txtDireccion" [(ngModel)]="carrera.DescripcionCarrera"/>
+<br/>
+<br/>
+<button (click)="guardar()">Guardar</button>
